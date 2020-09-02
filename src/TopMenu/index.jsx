@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss';
-import mdsLogo from '../mdsave.svg'
+import mdsLogo from '../mdsave.svg';
 
 const TopMenu = () => {
     return (

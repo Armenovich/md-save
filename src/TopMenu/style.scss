@@ -1,9 +1,28 @@
+@import '../styles/mixins.scss';
+@import '../styles/variables.scss';
+
 .topMenu {
     height: 80px;
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     .topMenuElements {
+        width: 60%;
+        margin: auto;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         height: 80px;
+        .topMenuButton {
+            @include globalButton;
+            margin-top: 23px;  
+            background-color: $white;
+            color: $blue;
+            font-family: Avenir-Heavy;
+            font-size: 17.5px;
+            font-weight: 900;
+            &:hover {
+                background-color: $blue;
+                color: $white;
+                transition: $transition;
+            }
+        }
     }
 }

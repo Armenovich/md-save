@@ -1,0 +1,71 @@
+@import '../styles/mixins.scss';
+
+.carePackage {
+    .carePackageHeading {
+        margin-top: 87px;
+        color: rgb(34, 61, 80);
+        font-family: TiemposHeadline-Medium;
+        font-size: 57px;
+        font-weight: 500;
+        height: 72px;
+        letter-spacing: 0px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .carePackageText {
+        text-align: center;
+        color: $darkBlue;
+        font-family: Avenir-Medium;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .wrapButton {
+        width: 10.5%;
+        margin: auto;
+        margin-top: 35px;
+        margin-bottom: 55px;
+        .carePackageButton {
+            @include globalButton;
+            height: 50px;
+            font-weight: 600;
+            background-color: $blue;
+            border-radius: 25px;
+            font-size: 15px;
+            &:hover {
+                transition: $transition;
+                background-color: $blackBlue;
+            }
+        }
+    }
+    .listProcedures {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 47%;
+        height: 616px;
+        margin: auto;
+        background-image: url(../images/blobs.24a2a4ca.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        .imageProcedures {
+            width: 70%;
+            height: 425px;
+            margin-top: 90px;
+        }
+        div {
+            width: 570px;
+            height: 100px;
+            .listProceduresText {
+                text-align: center;
+                font-family: Avenir-Heavy;
+                font-size: 14px;
+                line-height: 20px;
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
