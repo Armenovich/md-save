@@ -1,3 +1,22 @@
-.listHospitals {
-    
+.wrapListHospitals {
+    height: 200px;
+    .listHospitalsHeading {
+        color: rgb(34, 61, 80);
+        font-family: 'Avenir-Heavy';
+        font-size: 17px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .listHospitals {
+        width: 60%;
+        margin: auto;
+        li {
+            list-style-type: none;
+            display: inline-block;
+            margin-left: 50px;
+        }
+    }
 }

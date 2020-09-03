@@ -1,10 +1,11 @@
 @import '../styles/mixins.scss';
 
 .carePackage {
+    margin-bottom: 100px;
     .carePackageHeading {
         margin-top: 87px;
         color: rgb(34, 61, 80);
-        font-family: TiemposHeadline-Medium;
+        font-family: 'TiemposHeadline-Medium';
         font-size: 57px;
         font-weight: 500;
         height: 72px;
@@ -15,7 +16,7 @@
     .carePackageText {
         text-align: center;
         color: $darkBlue;
-        font-family: Avenir-Medium;
+        font-family: 'Avenir-Medium';
         font-size: 22px;
         font-weight: 500;
         line-height: 30px;
@@ -29,7 +30,6 @@
             @include globalButton;
             height: 50px;
             font-weight: 600;
-            background-color: $blue;
             border-radius: 25px;
             font-size: 15px;
             &:hover {
@@ -59,11 +59,10 @@
             height: 100px;
             .listProceduresText {
                 text-align: center;
-                font-family: Avenir-Heavy;
                 font-size: 14px;
                 line-height: 20px;
                 span {
-                    font-weight: 700;
+                    font-weight: bold;
                 }
             }
         }

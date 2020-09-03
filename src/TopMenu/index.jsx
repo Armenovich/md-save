@@ -6,7 +6,7 @@ const TopMenu = () => {
     return (
         <div className='topMenu'>
             <div className='topMenuElements'>
-                <img src={mdsLogo} />
+                <img src={mdsLogo} className='topMenuImages'/>
                 <button className='topMenuButton'>Request a Demo</button>
             </div>
         </div>

@@ -16,7 +16,8 @@ const CarePackage = () => {
             <div className='listProcedures'>
                 <img src={imageProcedures} alt='imageProcedures' className='imageProcedures'/>
                 <div>
-                    <p className='listProceduresText'><span>Satisfy your patients:</span> Give your patients the flexibility to pay at point-of-<br/>
+                    <p className='listProceduresText'><span>Satisfy your patients:
+                        </span> Give your patients the flexibility to pay at point-of-<br/>
                        service or pursue financing options while you still collect in full.</p>
                 </div>
             </div>
