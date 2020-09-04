@@ -10,12 +10,7 @@
         text-align: center;
     }
     span {
-        width: 40px;
-        height: 10px;
-        background: rgb(242, 242, 239);
-        border-radius: 4.5px;
-        display: block;
-        margin: auto;
+        @include smallStrip;
     }
     .serviceStructureText {
         color: rgb(34, 61, 80);

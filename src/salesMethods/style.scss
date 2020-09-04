@@ -1,0 +1,53 @@
+@import '../styles/mixins.scss';
+
+.salesMethods {
+    height: 1200px;
+    margin-top: 90px;
+    .salesMethodsHeading {
+        font-family: 'TiemposHeadline-Medium';
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 45px;
+        text-align: center;
+        color: $lightBlack;
+    }
+    span {
+        @include smallStrip;
+        margin-bottom: 50px;
+    }
+    .selector {
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        .salesMethodsImg {
+            height: 460px;
+            width: 550px;
+        }
+        .wrapText, .wrapBottomText {
+            margin-top: 70px;
+            margin-left: 70px;
+            .topSelectorHeading {
+                color: rgb(34, 61, 80);
+                font-family: 'Avenir-Heavy';
+                font-size: 23px;
+                font-weight: 900;
+                letter-spacing: 2.75px;
+                line-height: 30px;
+                text-transform: uppercase;
+            }
+            .topSelectorText {
+                color: rgb(56, 80, 97);
+                font-family: 'Avenir-Roman';
+                font-size: 18px;
+                font-weight: normal;
+                height: 110px;
+                line-height: 22px;
+                width: 340px;
+            }
+        }
+        .wrapBottomText {
+            margin-right: 50px;
+            margin-left: 0px;
+        }
+    }
+}

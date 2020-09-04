@@ -1,0 +1,57 @@
+.bottomMenu {
+    height: 588px;
+    .childWrapbottomMenu {
+        display: flex;
+        width: 61%;
+        margin: auto;
+        .bottomMenuImage {
+            margin-top: 20px;
+            margin-right: 60px;
+        }
+        .bottomMenuList, .lastList {
+            width: 150px;
+            margin-left: 50px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-left: 0px;
+            float: left;
+            li {
+                color: rgb(34, 61, 80);
+                font-family: 'Avenir-Roman';
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 22px;
+                list-style-type: none;
+                cursor: pointer;
+            }
+        }
+        .bottomMenuContact {
+            width: 150px;
+            margin-top: 60px;
+            padding-left: 0px;
+        }
+        .lastList {
+            margin-top: 50px;
+        }
+    }
+    .listIcons {
+        height: 100px;
+        border-top: 1px solid rgb(242, 245, 244);
+        border-bottom: 1px solid rgb(242, 245, 244);
+        .listIconsWrap {
+            width: 67%;
+            margin: auto;
+            margin-top: 15px;
+            .listIconsElement {
+                display: inline-block;
+                list-style-type: none;
+                margin-left: 35px;
+            }
+        }
+    }
+    .bottomText {
+        width: 60%;
+        margin: auto;
+        color: rgb(100, 119, 132);
+    }
+}
